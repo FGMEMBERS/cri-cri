@@ -95,15 +95,6 @@
   </model>
 
   <!-- L'hélice gauche--> 
-  <animation>
-    <name>HeliceG</name>
-    <object-name>coneG</object-name>
-    <object-name>paleG1</object-name>
-    <object-name>paleG2</object-name>
-    <object-name>propdiscG</object-name>
-    <object-name>propblurG</object-name>
-  </animation>
-
   <!-- Séléction de l'objet visible en fonction des rpm -->
   <animation>
     <type>select</type>
@@ -147,7 +138,11 @@
 
   <animation>
     <type>spin</type>
-    <object-name>HeliceG</object-name>
+    <object-name>coneG</object-name>
+    <object-name>paleG1</object-name>
+    <object-name>paleG2</object-name>
+    <object-name>propdiscG</object-name>
+    <object-name>propblurG</object-name>
     <property>engines/engine[0]/rpm</property>
     <factor> 1 </factor>
     <center>
@@ -163,15 +158,6 @@
   </animation>
 
   <!-- L'hélice droite--> 
-  <animation>
-    <name>HeliceD</name>
-    <object-name>coneD</object-name>
-    <object-name>paleD1</object-name>
-    <object-name>paleD2</object-name>
-    <object-name>propdiscD</object-name>
-    <object-name>propblurD</object-name>
-  </animation>
-
   <!-- Séléction de l'objet visible en fonction des rpm -->
   <animation>
     <type>select</type>
@@ -215,7 +201,11 @@
 
   <animation>
     <type>spin</type>
-    <object-name>HeliceD</object-name>
+    <object-name>coneD</object-name>
+    <object-name>paleD1</object-name>
+    <object-name>paleD2</object-name>
+    <object-name>propdiscD</object-name>
+    <object-name>propblurD</object-name>
     <property>engines/engine[1]/rpm</property>
     <factor> -1 </factor>
     <center>
