@@ -7,7 +7,7 @@
     <desc>Canopy</desc>
     <binding>
      <command>nasal</command>
-     <script>MC15.doorsystem.crewexport();</script>
+     <script>MC15.canopy.toggle();</script>
     </binding>
    </key>
 

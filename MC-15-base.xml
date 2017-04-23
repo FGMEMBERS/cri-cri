@@ -7,6 +7,13 @@
     <author>Guillaume CHAUVAT, Emmanuel BARANGER</author>
     <aircraft-version>0.2</aircraft-version>
     <status>Alpha</status>
+    <tags>
+      <tags>1970s</tags>
+      <tags>2-engine</tags>
+      <tags>fixed-gear</tags>
+      <tags>ga</tags>
+      <tags>piston</tags>
+    </tags>
 
     <fuel-fraction>0.5</fuel-fraction>
 
@@ -32,7 +39,11 @@
 
     <help>
       <title>MC-15</title>
-      <line>______________________________________________</line>
+      <key>
+        <name>d</name>
+        <desc>Open/Close canopy</desc>
+      </key>
+      <line>To start, press }}s (magnetos on, start)</line>
     </help>
 
     <menubar>
