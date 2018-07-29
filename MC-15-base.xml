@@ -35,6 +35,7 @@
 
     <multiplay>
       <chat_display>1</chat_display>
+      <fallback-model-index type="int">707</fallback-model-index>
     </multiplay> 
 
     <help>
