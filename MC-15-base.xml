@@ -27,6 +27,7 @@
 
     <model>
       <path archive="y">Aircraft/cri-cri/Models/MC-15.xml</path>
+      <fallback-model-index type="int">707</fallback-model-index>
     </model>
 
     <panel>
@@ -35,7 +36,6 @@
 
     <multiplay>
       <chat_display>1</chat_display>
-      <fallback-model-index type="int">707</fallback-model-index>
     </multiplay> 
 
     <help>
