@@ -7,12 +7,21 @@
     <author>Guillaume CHAUVAT, Emmanuel BARANGER</author>
     <aircraft-version>0.2</aircraft-version>
     <status>Alpha</status>
+    <rating>
+      <FDM type="int">1</FDM>
+      <systems type="int">1</systems>
+      <cockpit type="int">3</cockpit>
+      <model type="int">2</model>
+    </rating>
     <tags>
-      <tags>1970s</tags>
-      <tags>2-engine</tags>
-      <tags>fixed-gear</tags>
-      <tags>ga</tags>
-      <tags>piston</tags>
+      <tag>aerobatic</tag>
+      <tag>1970s</tag>
+      <tag>fixed-gear</tag>
+      <tag>tricycle</tag>
+      <tag>propeller</tag>
+      <tag>piston</tag>
+      <tag>twin-engine</tag>
+      <tag>fixed-pitch</tag>
     </tags>
 
     <fuel-fraction>0.5</fuel-fraction>
