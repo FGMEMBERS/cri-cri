@@ -39,6 +39,7 @@
   <view n="2">
     <config>
       <target-z-offset-m archive="y" type="double">0</target-z-offset-m>
+      <pitch-offset-deg>-32</pitch-offset-deg>
     </config>
   </view>
 
