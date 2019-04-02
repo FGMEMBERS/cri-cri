@@ -2,6 +2,15 @@
 
 <PropertyList>
 
+   <model>
+    <path>Aircraft/cri-cri/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -0.32 </x-m>
+      <y-m> 0 </y-m>
+      <z-m> -0.047 </z-m>
+    </offsets>
+  </model> 
+  
 <!-- Badin -->
   <model>
     <path>Aircraft/cri-cri/Models/Instruments/Asi/asi.xml</path>
