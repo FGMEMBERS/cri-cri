@@ -2,7 +2,7 @@
 
 <PropertyList>
 
-  <chase-distance-m type="double" archive="y">-20.0</chase-distance-m>
+  <chase-distance-m type="double" archive="y">-7.0</chase-distance-m>
 
   <view n="100">
     <name>Tail Camera View</name>
@@ -39,6 +39,7 @@
   <view n="2">
     <config>
       <target-z-offset-m archive="y" type="double">0</target-z-offset-m>
+      <pitch-offset-deg>-32</pitch-offset-deg>
     </config>
   </view>
 
